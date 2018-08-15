@@ -1,5 +1,5 @@
-from MRetrieve import Retriever
-from MRetrieve.mangadex import MANGADEX_URI, Log
+from mretrieve import Retriever
+from mretrieve.mangadex import MANGADEX_URI, Log
 from datetime import datetime
 from bs4 import BeautifulSoup
 import re

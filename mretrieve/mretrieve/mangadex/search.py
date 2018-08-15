@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 from MRetrieve import Retriever
-from MRetrieve.mangadex import Log, MANGADEX_URI
-from MRetrieve.mangadex.objects.genre import Genre
+from mretrieve.mangadex import Log, MANGADEX_URI
+from mretrieve.mangadex.objects.genre import Genre
 
 MANGADEX_SEARCH_URI = "/?page=search"
 MANGADEX_AUTHOR_URI = "&author="
